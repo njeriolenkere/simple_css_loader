@@ -1,0 +1,103 @@
+body{
+	font-family:"arial", "verdana", "georgia", "courier";
+    overflow: scroll;
+    background-color: #80d9ff;
+
+}
+
+.container{
+	margin: auto;
+	position: absolute;
+	width: 100%;
+	height:auto;
+	padding: 5px;
+	text-align: center;	
+
+}
+h1{
+    font-size: 7vw;
+    font-family:"georgia", "arial", "verdana", "courier";
+
+}
+h2{
+	font-size: 4vw;
+    
+}
+
+p, .cssLoader{
+	font-size: 3.5vw;
+}
+.img{
+	width: 50%;
+	height: auto;
+}
+.box{
+	padding: 30px;
+}
+.cssLoader{
+animation: fade 1s infinite alternate;
+opacity: 1;
+
+}
+
+@keyframes fade{
+    0%{ opacity: 0; } } 
+
+@-webkit-keyframes fade{
+    0%{ opacity: 0; } } 
+}
+@-moz-keyframes fade{
+    0%{ opacity: 0; } }
+
+
+
+
+
+
+
+
+/*
+.cssLoader3{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	animation: bar 2s linear infinite;
+	-webkit-animation: bar 2s linear infinite;
+	-moz-animation: bar 2s linear infinite;
+}
+      
+@keyframes bar{
+    0%{ box-shadow: inset 0px 0px 0px #000; }
+    100%{ box-shadow: inset 90px 0px 0px #000; } }
+
+@-webkit-keyframes bar{
+    0%{ box-shadow: inset 0px 0px 0px #000; }
+    100%{ box-shadow: inset 90px 0px 0px #000; } }
+@-moz-keyframes bar{
+    0%{ box-shadow: inset 0px 0px 0px #000; }
+    100%{ box-shadow: inset 90px 0px 0px #000; } }
+
+.cssLoader2 {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	border-top: 3px solid rgba(0,0,0,0.3);
+	border-bottom: 3px solid rgba(0,0,0,0.8);
+	border-left: 3px solid rgba(0,0,0,0.3);
+	border-right: 3px solid rgba(0,0,0,0.3);
+	border-radius: 100%;
+	text-align: center;
+	animation: spinner 0.7s linear infinite;
+	-moz-animation: spinner 0.7s linear infinite;
+	-webkit-animation: spinner 0.7s linear infinite;
+
+}
+@keyframes spinner{
+	to{ transform: rotate(360deg); } }
+@-moz-keyframes spinner{
+	to{ transform: rotate(360deg); } }
+@-webkit-keyframes spinner{
+	to{ transform: rotate(360deg); } }*/
+
+
+
